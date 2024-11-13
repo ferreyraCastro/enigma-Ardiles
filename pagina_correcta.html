@@ -35,7 +35,7 @@
             background-color: #d4edda;
         }
         .incorrect {
-            background-color: #f8d7da;
+            background-color: lightcoral;
         }
         .textoColor{
             color: #f8b90a;
@@ -57,7 +57,10 @@
             border: 1px solid rgba(0, 0, 0, 0.2); /* Borde de 1px con un color gris claro */
             box-sizing: border-box; /* Asegura que el padding y border no aumenten el tamaño total del elemento */
         }
-
+        .justify-text p {
+            text-align: justify;
+        }
+        
     </style>
 </head>
 <body>
@@ -71,12 +74,12 @@
         <div class="row">
             <div class="col  m2"></div>  
 
-            <div class="col s12 m8 ">
+            <div class="col s12 m8 justify-text">
                 <h1>¡Felicidades!</h1>
-                <p>Con acierto, has logrado descifrar la primera clave; mas para desvelar el enigma en su
-                totalidad, deberás enfrentarte al siguiente desafío. Resolviendo el acertijo, alcanzarás la
-                verdad oculta.</p>
-            </div>  
+                <h6>Con acierto, has logrado descifrar la primera clave;</h6>
+                <h5>“Ahora deberás resolver el rompecabezas que encuentras en la sala”</h5>
+            </div>
+             
    
 
             <a class="waves-effect waves-light btn-large" href="index.html">Volver Inicio</a>
